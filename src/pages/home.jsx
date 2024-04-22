@@ -13,9 +13,9 @@ const Home = () => {
 
     <div>
       <Hero />
+      <Footer />
 
       {/* <Earth /> */}
-      {/* <Footer /> */}
       {/* <Transition /> */}
     </div>
 

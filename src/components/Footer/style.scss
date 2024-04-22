@@ -3,14 +3,16 @@
 .footer{
     width: 100%;
     height: 100vh;
-
+    background-color: red;
     .partners{
+
         @include tablet{
             background-color: green;
         }
         @include desktop{
             background-color: rgb(23, 0, 128);
         }
+        
     }
 }
 
