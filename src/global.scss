@@ -1,0 +1,106 @@
+// DEVICES
+$tablet: 780px;
+$desktop: 1024px;
+
+// COLORS
+$white: rgb(241, 241, 232);
+$alabaster: #e0dfd5ff;
+$jet: #333333ff;
+$chamoisee: #a57548ff;
+$bondi-blue: #208aaeff;
+$air-superiority-blue: #6096baff;
+$bg-dark: rgb(24, 24, 24);
+
+// ALIEN
+$platinum: #DCDEE5ff;
+$khaki: #B3A799ff;
+$outer-space: #485559ff;
+$antiflash-white: #E7E8EDff;
+$yale-blue: #203C76ff;
+
+// VRAI
+$cursor-color: #203C76ff;
+$light-bg-color: #DCDEE5ff;
+$light-font-color: #485559ff;
+$light-btn-bg: #203C76ff;
+$light-btn-text: #E7E8EDff;
+
+$dark-bg-color: #485559ff;
+$dark-font-color: #DCDEE5ff;
+$dark-btn-bg: #203C76ff;
+$dark-btn-text: #E7E8EDff;
+
+
+@mixin desktop {
+    @media (min-width : $desktop) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width : $tablet) {
+        @content;
+    }
+}
+
+
+
+@mixin theme-light {
+    background-color: $alabaster;
+    color: $jet;
+}
+
+@mixin theme-dark {
+    background-color: $bg-dark;
+    color: $alabaster;
+}
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#light {
+    @include theme-light;
+
+    * {
+        color: $jet;
+
+    }
+}
+
+#dark {
+    @include theme-dark;
+
+    * {
+        color: $alabaster;
+
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.earth {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    width: 60vw;
+    height: 100vh;
+    z-index: 100;
+// background-color: red;
+}

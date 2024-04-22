@@ -1,0 +1,365 @@
+/**
+ * @license
+ *
+ * Font Family: Boska
+ * Designed by: Barbara Bigosinska
+ * URL: https://www.fontshare.com/fonts/boska
+ * © 2024 Indian Type Foundry
+ *
+ * Font Styles:
+ * Boska Variable(Variable font)
+ * Boska Variable Italic(Variable font)
+ * Boska Extralight
+ * Boska Extralight Italic
+ * Boska Light
+ * Boska Light Italic
+ * Boska Regular
+ * Boska Italic
+ * Boska Medium
+ * Boska Medium Italic
+ * Boska Bold
+ * Boska Bold Italic
+ * Boska Black
+ * Boska Black Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 200.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 900.0)
+
+*/
+
+@font-face {
+    font-family: 'Boska-Variable';
+    src: url('../assets/fonts/Boska-Variable.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Variable.woff') format('woff'),
+        url('../assets/fonts/Boska-Variable.ttf') format('truetype');
+    font-weight: 200 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+/**
+  * This is a variable font
+  * You can controll variable axes as shown below:
+  * font-variation-settings: 'wght' 200.0;
+  *
+  * available axes:
+  
+  * 'wght' (range from 200.0 to 900.0)
+  
+  */
+
+@font-face {
+    font-family: 'Boska-VariableItalic';
+    src: url('../assets/fonts/Boska-VariableItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-VariableItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-VariableItalic.ttf') format('truetype');
+    font-weight: 200 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Extralight';
+    src: url('../assets/fonts/Boska-Extralight.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Extralight.woff') format('woff'),
+        url('../assets/fonts/Boska-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-ExtralightItalic';
+    src: url('../assets/fonts/Boska-ExtralightItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-ExtralightItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-ExtralightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Light';
+    src: url('../assets/fonts/Boska-Light.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Light.woff') format('woff'),
+        url('../assets/fonts/Boska-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-LightItalic';
+    src: url('../assets/fonts/Boska-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-LightItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Regular';
+    src: url('../assets/fonts/Boska-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Regular.woff') format('woff'),
+        url('../assets/fonts/Boska-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-Italic';
+    src: url('../assets/fonts/Boska-Italic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Italic.woff') format('woff'),
+        url('../assets/fonts/Boska-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Medium';
+    src: url('../assets/fonts/Boska-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Medium.woff') format('woff'),
+        url('../assets/fonts/Boska-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-MediumItalic';
+    src: url('../assets/fonts/Boska-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-MediumItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Bold';
+    src: url('../assets/fonts/Boska-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Bold.woff') format('woff'),
+        url('../assets/fonts/Boska-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-BoldItalic';
+    src: url('../assets/fonts/Boska-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-BoldItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Boska-Black';
+    src: url('../assets/fonts/Boska-Black.woff2') format('woff2'),
+        url('../assets/fonts/Boska-Black.woff') format('woff'),
+        url('../assets/fonts/Boska-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Boska-BlackItalic';
+    src: url('../assets/fonts/Boska-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/Boska-BlackItalic.woff') format('woff'),
+        url('../assets/fonts/Boska-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* color: #0f0f0f; */
+    /* cursor: none; */
+}
+
+html,
+body {
+    font-family: 'Satoshi-Medium';
+    /* background: #e0dfd5ff; */
+
+}
+
+
+.hero {
+    height: 100vh;
+    position: relative;
+    z-index: 200;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Boska-Medium';
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 10vw;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+/* #light h1 {
+    color: var(--jet);
+}
+
+#dark h1 {
+    color: var(--alabaster);
+
+} */
+
+.description {
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description .text {
+    font-family: 'Boska-Medium';
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2;
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+
+}
+
+/* #light .description .text span {
+    color: var(--jet);
+}
+
+#dark .description .text span {
+    color: var(--alabaster);
+} */
+
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: bottom;
+}
+
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: top;
+}
+
+/* BUTTONS */
+
+.hire_me {
+    background: var(--white);
+    width: max-content;
+    padding: 20px 60px;
+    color: var(--jet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px;
+    clip-path: polygon(10% 20%, 0% 100%, 90% 85%, 100% 0%)
+}
+
+.cursor {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+    z-index: 100000;
+}
+
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    pointer-events: none;
+    z-index: 100000;
+    mix-blend-mode: difference;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* transition: all 3s ease-in-out ; */
+}
+
+.hoverable {}
+
+.cursor-text {
+    font-size: 5px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.div.hovered .cursor {
+    width: 40px;
+    /* Taille augmentée lorsque survolé */
+    height: 40px;
+}
