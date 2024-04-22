@@ -93,23 +93,7 @@ a {
     z-index: 100000;
 }
 
-.custom-cursor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    pointer-events: none;
-    z-index: 100000;
-    mix-blend-mode: difference;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-    /* transition: all 3s ease-in-out ; */
-}
+
 
 .hoverable {}
 
