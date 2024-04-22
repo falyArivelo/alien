@@ -15,6 +15,7 @@ import './global.scss'
 import message_fr from './components/Langues/fr.json'
 import message_en from './components/Langues/en.json'
 import { IntlProvider } from 'react-intl';
+import gsap from 'gsap';
 
 const messages = {
   fr: message_fr,
@@ -22,6 +23,8 @@ const messages = {
 }
 
 export const ThemeContext = createContext(null)
+
+// gsap.registerPlugin(ScrollTrigger,ScrollSmoother)
 
 function App() {
   const location = useLocation();
@@ -33,9 +36,11 @@ function App() {
 
   }
 
+
+  
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <IntlProvider locale='fr' messages={messages['fr']} >
+      <IntlProvider locale='en' messages={messages['en']} >
 
         <div className='App' id={theme}>
           <Cursor />

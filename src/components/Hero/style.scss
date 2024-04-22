@@ -1,0 +1,33 @@
+.hero {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 200;
+    display: flex;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    // background-color: red;
+
+    .txt {
+        position: absolute;
+        font-size: 200px;
+        font-weight: bold;
+        // border: 1px solid red;
+        height: max-content;
+        width: max-content;
+        padding: 0;
+        text-transform: uppercase;
+
+        &.planet_txt {
+            left: 5%;
+            top: 10%;
+        }
+
+        &.earth_txt {
+            right: 5%;
+            bottom: 10%;
+        }
+    }
+
+}

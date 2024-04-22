@@ -6,6 +6,7 @@
     "@barba/core": "^2.9.7",
     "@barba/css": "^2.1.15",
     "@barba/prefetch": "^2.1.10",
+    "@gsap/react": "^2.1.0",
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
     "@testing-library/jest-dom": "^5.17.0",

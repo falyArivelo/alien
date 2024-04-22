@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
       <div className="logo">
-        <Link to='/'>falyarivelo</Link>
+        <Link to='/'>Vittoria .</Link>
       </div>
       <div className="menu">
         <div className="nav-links">

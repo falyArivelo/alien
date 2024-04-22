@@ -61,6 +61,15 @@ $dark-btn-text: #E7E8EDff;
     align-items: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: none;
+}
+
+
 #light {
     @include theme-light;
 
@@ -99,8 +108,8 @@ $dark-btn-text: #E7E8EDff;
     position: absolute;
     top: 5%;
     right: 0%;
-    width: 60vw;
+    width: 100%;
     height: 100vh;
-    z-index: 100;
-// background-color: red;
+    // z-index: 100;
+    // background-color: red;
 }
