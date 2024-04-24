@@ -11,6 +11,7 @@ import Cursor from './components/Cursor';
 import { createContext, useState } from 'react';
 import ReactSwitch from 'react-switch';
 import './global.scss'
+import Chat from './components/Chat'
 
 import message_fr from './components/Langues/fr.json'
 import message_en from './components/Langues/en.json'
@@ -28,11 +29,11 @@ export const ThemeContext = createContext(null)
 
 function App() {
   const location = useLocation();
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
 
   const toggleTheme = () => {
     setTheme((curr) => (curr == "light" ? "dark" : "light"))
-    document.body.classList.toggle('theme-light', theme === 'dark');
+    document.body.classList.toggle('theme-dark', theme === 'light');
 
   }
 
@@ -41,10 +42,8 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <IntlProvider locale='en' messages={messages['en']} >
-
         <div className='App' id={theme}>
           <Cursor />
-
           <Navbar />
 
           <AnimatePresence  >
@@ -53,6 +52,8 @@ function App() {
               <Route path="/about" element={<About />} className='page' />
               <Route path="/home" element={<Home />} className='page' />
               <Route path="/contact" element={<Contact />} className='page' />
+              <Route path="/chat" element={<Chat />} className='page' />
+
             </Routes>
           </AnimatePresence>
           <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />

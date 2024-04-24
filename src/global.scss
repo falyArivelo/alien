@@ -12,24 +12,25 @@ $bondi-blue: #208aaeff;
 $air-superiority-blue: #6096baff;
 $bg-dark: rgb(24, 24, 24);
 
-// ALIEN
-$platinum: #DCDEE5ff;
-$khaki: #B3A799ff;
-$outer-space: #485559ff;
-$antiflash-white: #E7E8EDff;
-$yale-blue: #203C76ff;
+
+$rich-black: #01161eff;
+$midnight-green: #124559ff;
+$air-force-blue: #598392ff;
+$ash-gray: #aec3b0ff;
+$beige: #eff6e0ff;
 
 // VRAI
-$cursor-color: #203C76ff;
-$light-bg-color: #DCDEE5ff;
-$light-font-color: #485559ff;
-$light-btn-bg: #203C76ff;
-$light-btn-text: #E7E8EDff;
+$cursor-color: $midnight-green ;
 
-$dark-bg-color: #485559ff;
-$dark-font-color: #DCDEE5ff;
-$dark-btn-bg: #203C76ff;
-$dark-btn-text: #E7E8EDff;
+$light-bg-color: $beige;
+$light-font-color: $midnight-green ;
+$light-btn-bg: $ash-gray;
+$light-btn-text: $midnight-green;
+
+$dark-bg-color: $rich-black ;
+$dark-font-color: $ash-gray ;
+$dark-btn-bg: $beige ;
+$dark-btn-text: $midnight-green;
 
 
 @mixin phone {
@@ -53,13 +54,13 @@ $dark-btn-text: #E7E8EDff;
 
 
 @mixin theme-light {
-    background-color: $alabaster;
-    color: $jet;
+    background-color: $light-bg-color;
+    color: $light-font-color;
 }
 
 @mixin theme-dark {
-    background-color: $bg-dark;
-    color: $alabaster;
+    background-color: $dark-bg-color;
+    color: $dark-font-color;
 }
 
 @mixin flex-center-center {
@@ -81,8 +82,7 @@ $dark-btn-text: #E7E8EDff;
     @include theme-light;
 
     * {
-        color: $jet;
-
+        color: $light-font-color;
     }
 }
 
@@ -90,7 +90,7 @@ $dark-btn-text: #E7E8EDff;
     @include theme-dark;
 
     * {
-        color: $alabaster;
+        color: $dark-font-color;
 
     }
 }
@@ -131,7 +131,7 @@ $dark-btn-text: #E7E8EDff;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: $rich-black;
     height: 30px;
     width: 30px;
     border-radius: 30px;

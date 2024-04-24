@@ -52,10 +52,16 @@ const Navbar = () => {
           </div>
         </div>
 
+        <div className="nav-links">
+          <div className="nav-item">
+            <Link className='nav-link' to='/chat'><FormattedMessage id="chat" /></Link>
+          </div>
+        </div>
+
         {/* burger icon */}
 
 
-        <div className="leftBar">
+        {/* <div className="leftBar">
           <motion.div
             className='menu'
             variants={menu}
@@ -68,7 +74,7 @@ const Navbar = () => {
           </motion.div>
           <Button isActive={isActive} toggleMenu={() => { setIsActive(!isActive) }} />
 
-        </div>
+        </div> */}
       </div>
 
 

@@ -14,11 +14,24 @@ const Index = () => {
     const descriptionText = intl.formatMessage({ id: 'description' });
 
     useGSAP(() => {
-        // gsap.to("#text",{
-        //   ease: 'power1.inOut',
-        //   opacity: 1,
-        //   y: 0,
-        // })
+        gsap.fromTo(".hero_1", {
+            ease: 'power1.inOut',
+            opacity: 0,
+            // y: '120%',
+            // width:'0%',
+            scale: 0.9,
+            rotation: 0.3,
+            borderRadius:'10%',
+            // stagger: 5
+        }, {
+            opacity: 1,
+            scale: 1,
+            // y: '0%',
+            delay: 1,
+            rotation: 0,
+            borderRadius:'0%',
+            duration: .9
+        })
 
         gsap.fromTo(".planet_txt", {
             opacity: 0.5,
@@ -28,7 +41,7 @@ const Index = () => {
             opacity: 1,
             x: '0%',
             duration: 1,
-            delay: 1,
+            delay: 2,
             stagger: 1
         })
 
@@ -40,34 +53,26 @@ const Index = () => {
             opacity: 1,
             x: '0%',
             duration: 1,
-            delay: 1,
+            delay: 2,
             stagger: 1
         })
     })
 
     return (
         <div className='hero' >
-            {/* <m.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                // exit={{ opacity: 0 }}
-                transition={{ duration: 5, ease: [0.22, 1, 0.36, 1], }}
-            >
-                <WordByword text={descriptionText} /> 
- 
-            </m.div> */}
 
-            <div className="txt planet_txt">
-                Planet
+
+
+            <div className="hero_image">
+                <img className='hero_1' src="/assets/images/hero_3.jpg" alt="" srcset="" />
             </div>
-            <Sphere />
 
             <div className="txt earth_txt">
-                earth
+                LIFE
             </div>
-
-            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.1.4/build/spline-viewer.js"></script>
-            <spline-viewer url="https://prod.spline.design/OUtlkLl1hUjlEpOc/scene.splinecode"></spline-viewer>
+            <div className="txt planet_txt">
+                BETTER
+            </div>
         </div>
     )
 }
